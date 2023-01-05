@@ -1,0 +1,226 @@
+/*This is our css file that holds all things dealing with the styling of the website
+Creation Date: 2/12/2022
+Author Name: Alex Polivka, Devon Boldt, Mason Marker, Tate Lemm
+*/
+
+/*Text allignment, coloring, and font for the title of pages*/
+.pageTitle {
+	text-align: center;
+	color: lime;
+	font-family: "Times New Roman", Times, serif;
+}
+
+/*Text allignment, coloring, and font for the title of pages*/
+.pageDescription {
+	text-align: center;
+	color: limeGreen;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Text allignment, coloring, and font for the greeting when logged in or to the valorant page*/
+#greeting {
+	text-align: center;
+	color: #fa921b;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Dropdown Button */
+.menuButton {
+	background-color: #606063;
+	border-radius: 10px 0px 0px 0px;
+	color: Black;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+  
+  /* Dropdown button on hover & focus */
+.menuButton:hover, .menuButton:focus {
+	background-color: #0f5c1a;
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+.menu {
+	position: relative;
+	display: inline-block;
+}
+  
+  /* Dropdown Content */
+.navOptions {
+	display: none;
+	position: absolute;
+	background-color: limeGreen;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+  
+  /* Links inside the dropdown */
+.navOptions a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+  
+  /* Change color of dropdown links on hover */
+.navOptions a:hover {
+	background-color: rgb(17, 146, 38);
+}
+  
+.show {
+	display:block;
+}
+
+/*menu information*/
+.menuBar {
+	list-style-type: none;
+  	margin: 0;
+ 	padding: 0;
+	border-radius: 10px 10px 0px 0px;
+	overflow: show;
+	background-color: rgb(122, 121, 121);
+}
+
+.topLink {
+	color: #fa921b;
+}
+
+.topLink:visited {
+	color: #fa921b;
+}
+
+.topLink:hover {
+	color: #fa921b;
+}
+
+.topLink:active {
+	color: #fa921b;
+}
+
+.mapLink {
+	font-size: 25px;
+}
+
+.menuLink {
+	color: black;
+}
+
+.menuLink:visited {
+	color: black;
+}
+
+.menuLink:hover {
+	color: black;
+}
+
+.menuLink:active {
+	color: black;
+}
+
+/*general background color*/
+body {
+	background-color: black;
+}
+
+/*container to hold information*/
+.container {
+	position: relative;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	left: 7%; 
+}
+
+/*container for the sign up phase specifically*/
+.signUpContainer {
+	position: relative;
+	left: 36%;
+	/* left: 36%; */
+}
+
+/*sign up box design*/
+.signUpBox {
+	display: block;
+	text-align: center;
+	width: 450px;
+	height: 350px;
+	border: 10px solid green;
+	border-radius: 20px;
+	background-color: limeGreen;
+	padding: 25px; 
+	margin: 10px; 
+	float: left;
+}
+
+/*design for maps and line up boxes*/
+.mapSelectorBox {
+	display: block;
+	text-align: center;
+	width: 450px;
+	height: 350px;
+	border: 10px solid green;
+	border-radius: 20px;
+	background-color: limeGreen;
+	padding: 25px; 
+	margin: 10px; 
+	float: left;
+}
+
+/*design for the about us page information*/
+.aboutUsSelectorBox {
+	display: block;
+	width: 450px;
+	height: 350px;
+	border: 10px solid green;
+	border-radius: 20px;
+	background-color: limeGreen;
+	padding: 25px; 
+	margin: 10px; 
+	float: left;
+}
+
+/*admin control box design*/
+.adminControlBox {
+	display: block;
+	text-align: center;
+	width: 250px;
+	height: 150px;
+	border: 10px solid green;
+	border-radius: 20px;
+	background-color: limeGreen;
+	padding: 25px; 
+	margin: 10px; 
+	float: left;
+}
+
+/*basic image formatting*/
+img {
+	display: block;
+	margin: auto;
+	border-radius: 20px;
+	width: 400px;
+	height: 300px;
+}
+/*media query to help with page modifications*/
+@media only screen and (max-width: 768px) {
+	
+	.container {
+		position: relative;
+		left: 0px;
+	}
+
+	.mapSelectorBox {
+		width: 70%;
+	}
+	
+	img {
+		margin: auto;
+		width: 70%;
+	}
+}
+/*account deletion color*/
+.areyousure-h1 {
+	color: white;
+}
